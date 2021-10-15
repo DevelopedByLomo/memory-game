@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+.grid{
+    width: 400px;
+    height: 310px;
+    border: black solid 4px;
+    background-color: darkslategrey;
+}
+
+
+@media screen and (max-width:908px){
+    
+    .grid{
+        width: 95vw;
+        height:  fit-content;
+        border: 1px solid black;
+    }
+    img{
+        width: 25%;
+    }
+    
+}
